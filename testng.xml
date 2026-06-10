@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo Suite">
+
+    <test name="Flight Tests">
+        <classes>
+            <class name="com.blazedemo.testcases.FlightBookingTest"/>
+        </classes>
+    </test>
+
+</suite>

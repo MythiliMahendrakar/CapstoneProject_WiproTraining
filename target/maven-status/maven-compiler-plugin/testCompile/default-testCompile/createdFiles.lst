@@ -1,0 +1,8 @@
+com\blazedemo\pages\ConfirmationPage.class
+com\blazedemo\pages\PurchasePage.class
+com\blazedemo\utilities\CSVDataReader.class
+com\blazedemo\base\BaseTest.class
+com\blazedemo\testcases\FlightBookingTest.class
+com\blazedemo\pages\FlightResultsPage.class
+com\blazedemo\utilities\ConfigReader.class
+com\blazedemo\pages\HomePage.class

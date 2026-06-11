@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T20:48:36 IST" name="BlazeDemo Suite" finished-at="2026-06-10T20:49:48 IST" duration-ms="72377">
+  <suite started-at="2026-06-11T12:40:48 IST" name="BlazeDemo Suite" finished-at="2026-06-11T12:41:56 IST" duration-ms="67643">
     <groups>
     </groups>
-    <test started-at="2026-06-10T20:48:36 IST" name="Flight Tests" finished-at="2026-06-10T20:49:48 IST" duration-ms="72377">
+    <test started-at="2026-06-11T12:40:48 IST" name="Flight Tests" finished-at="2026-06-11T12:41:26 IST" duration-ms="37826">
       <class name="com.blazedemo.testcases.FlightBookingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:36 IST" name="setup" finished-at="2026-06-10T20:48:42 IST" duration-ms="5817" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:40:48 IST" name="setup" finished-at="2026-06-11T12:40:53 IST" duration-ms="4383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:42 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:48:47 IST" duration-ms="5379" status="PASS">
+        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:40:53 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-11T12:40:58 IST" duration-ms="4698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,15 +72,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:47 IST" name="tearDown" finished-at="2026-06-10T20:48:47 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:40:58 IST" name="tearDown" finished-at="2026-06-11T12:40:58 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:47 IST" name="setup" finished-at="2026-06-10T20:48:50 IST" duration-ms="2968" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:40:58 IST" name="setup" finished-at="2026-06-11T12:41:01 IST" duration-ms="2801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:50 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:48:56 IST" duration-ms="5238" status="PASS">
+        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:01 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-11T12:41:06 IST" duration-ms="4918" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,15 +141,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:56 IST" name="tearDown" finished-at="2026-06-10T20:48:56 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:06 IST" name="tearDown" finished-at="2026-06-11T12:41:06 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:56 IST" name="setup" finished-at="2026-06-10T20:48:58 IST" duration-ms="2416" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:06 IST" name="setup" finished-at="2026-06-11T12:41:09 IST" duration-ms="2851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:48:58 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:03 IST" duration-ms="4831" status="PASS">
+        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:09 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-11T12:41:13 IST" duration-ms="4516" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,15 +210,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:03 IST" name="tearDown" finished-at="2026-06-10T20:49:03 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:13 IST" name="tearDown" finished-at="2026-06-11T12:41:14 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:03 IST" name="setup" finished-at="2026-06-10T20:49:06 IST" duration-ms="2537" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:14 IST" name="setup" finished-at="2026-06-11T12:41:16 IST" duration-ms="2566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:06 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:11 IST" duration-ms="4953" status="PASS">
+        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:16 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-11T12:41:20 IST" duration-ms="3860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,15 +279,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:11 IST" name="tearDown" finished-at="2026-06-10T20:49:11 IST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:20 IST" name="tearDown" finished-at="2026-06-11T12:41:20 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:11 IST" name="setup" finished-at="2026-06-10T20:49:14 IST" duration-ms="2575" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:20 IST" name="setup" finished-at="2026-06-11T12:41:23 IST" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:14 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:19 IST" duration-ms="5432" status="PASS">
+        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:23 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-11T12:41:26 IST" duration-ms="3264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,218 +348,75 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:19 IST" name="tearDown" finished-at="2026-06-10T20:49:20 IST" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:20 IST" name="setup" finished-at="2026-06-10T20:49:22 IST" duration-ms="2743" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:22 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:29 IST" duration-ms="6135" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[06]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[São Paolo]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Rome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Neha Sharma]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Street 6]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Mumbai]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[MH]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[400001]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[05]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2027]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:29 IST" name="tearDown" finished-at="2026-06-10T20:49:29 IST" duration-ms="550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:29 IST" name="setup" finished-at="2026-06-10T20:49:32 IST" duration-ms="3345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:32 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:39 IST" duration-ms="6145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[07]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Paris]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Buenos Aires]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kiran Das]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Street 7]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[WB]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[700001]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[MASTER]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[07]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2026]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:39 IST" name="tearDown" finished-at="2026-06-10T20:49:39 IST" duration-ms="474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:39 IST" name="setup" finished-at="2026-06-10T20:49:42 IST" duration-ms="2862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_FlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:42 IST" name="TC_FlightBooking" data-provider="csvData" finished-at="2026-06-10T20:49:48 IST" duration-ms="5616" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[08]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Philadelphia]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Cairo]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Anita Rao]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Street 8]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[TN]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[600002]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[09]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2026]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_FlightBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-10T20:49:48 IST" name="tearDown" finished-at="2026-06-10T20:49:48 IST" duration-ms="476" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.FlightBookingTest@51399530]" started-at="2026-06-11T12:41:26 IST" name="tearDown" finished-at="2026-06-11T12:41:26 IST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.testcases.FlightBookingTest -->
     </test> <!-- Flight Tests -->
+    <test started-at="2026-06-11T12:41:26 IST" name="GUI Elements Tests" finished-at="2026-06-11T12:41:56 IST" duration-ms="29777">
+      <class name="com.blazedemo.testcases.GUIElementsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:26 IST" name="setup" finished-at="2026-06-11T12:41:29 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateChooseFlightButton()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:29 IST" name="validateChooseFlightButton" finished-at="2026-06-11T12:41:31 IST" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChooseFlightButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:31 IST" name="tearDown" finished-at="2026-06-11T12:41:31 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:31 IST" name="setup" finished-at="2026-06-11T12:41:36 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateConfirmationText()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:36 IST" name="validateConfirmationText" finished-at="2026-06-11T12:41:43 IST" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateConfirmationText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:43 IST" name="tearDown" finished-at="2026-06-11T12:41:43 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:43 IST" name="setup" finished-at="2026-06-11T12:41:46 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDepartureDropdown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:46 IST" name="validateDepartureDropdown" finished-at="2026-06-11T12:41:47 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDepartureDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:47 IST" name="tearDown" finished-at="2026-06-11T12:41:47 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:47 IST" name="setup" finished-at="2026-06-11T12:41:51 IST" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDestinationDropdown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:51 IST" name="validateDestinationDropdown" finished-at="2026-06-11T12:41:52 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDestinationDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:52 IST" name="tearDown" finished-at="2026-06-11T12:41:52 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:52 IST" name="setup" finished-at="2026-06-11T12:41:54 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFindFlightsButton()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:54 IST" name="validateFindFlightsButton" finished-at="2026-06-11T12:41:56 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFindFlightsButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.GUIElementsTests@544fa968]" started-at="2026-06-11T12:41:56 IST" name="tearDown" finished-at="2026-06-11T12:41:56 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.testcases.GUIElementsTests -->
+    </test> <!-- GUI Elements Tests -->
   </suite> <!-- BlazeDemo Suite -->
 </testng-results>

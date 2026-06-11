@@ -58,5 +58,20 @@ public class HomePage {
         WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(findFlightsBtn));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
         System.out.println("Find Flights clicked successfully");
+        
+    
     }
+ //  Helper methods for GUI validations
+    public String getSelectedDeparture() {
+        WebElement dropdown = driver.findElement(fromPort);
+        Select select = new Select(dropdown);
+        return select.getFirstSelectedOption().getText();
+    }
+
+    public String getSelectedDestination() {
+        WebElement dropdown = driver.findElement(toPort);
+        Select select = new Select(dropdown);
+        return select.getFirstSelectedOption().getText();
+}
+    
 }

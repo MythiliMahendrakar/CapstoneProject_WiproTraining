@@ -14,6 +14,9 @@
             <class name="com.blazedemo.testcases.GUIElementsTests"/>
         </classes>
     </test>
+    <listeners>
+    	<listener class-name="com.blazedemo.utilities.ExtentTestListener"/>
+	</listeners>
+
 
 </suite>
- 
